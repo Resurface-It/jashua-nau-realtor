@@ -39,7 +39,7 @@ export default function LeadForm({
 
   useEffect(() => {
     if (prefilledData) {
-      const searchCriteria = []
+      const searchCriteria: string[] = []
       if (prefilledData.price) searchCriteria.push(`Price: ${prefilledData.price}`)
       if (prefilledData.beds) searchCriteria.push(`Bedrooms: ${prefilledData.beds}+`)
       if (prefilledData.baths) searchCriteria.push(`Bathrooms: ${prefilledData.baths}+`)

@@ -15,7 +15,7 @@ const faqItems = [
   {
     question: 'How do I get started buying a home in Eugene or Springfield?',
     answer:
-      'The first step is to get pre-approved for a mortgage. This helps you understand your budget and makes you a stronger buyer. Then we'll discuss your needs, timeline, and preferences to create a personalized home search strategy.',
+      'The first step is to get pre-approved for a mortgage. This helps you understand your budget and makes you a stronger buyer. Then we\'ll discuss your needs, timeline, and preferences to create a personalized home search strategy.',
   },
   {
     question: 'What neighborhoods are best for families in Eugene?',
@@ -25,7 +25,7 @@ const faqItems = [
   {
     question: 'How long does it take to sell a home in Eugene or Springfield?',
     answer:
-      'The time to sell varies based on market conditions, pricing, and property condition. In the current market, well-priced homes typically sell within 30-60 days. We'll provide a realistic timeline based on your specific property.',
+      'The time to sell varies based on market conditions, pricing, and property condition. In the current market, well-priced homes typically sell within 30-60 days. We\'ll provide a realistic timeline based on your specific property.',
   },
   {
     question: 'What are closing costs and who pays them?',
@@ -65,7 +65,7 @@ const faqItems = [
   {
     question: 'What should I look for when viewing homes?',
     answer:
-      'Look at the overall condition, layout, natural light, neighborhood, and proximity to schools, work, and amenities. We'll help you identify potential issues and understand what can be changed versus what can\'t.',
+      'Look at the overall condition, layout, natural light, neighborhood, and proximity to schools, work, and amenities. We\'ll help you identify potential issues and understand what can be changed versus what can\'t.',
   },
   {
     question: 'Can you help with financing?',

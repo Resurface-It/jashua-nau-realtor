@@ -9,6 +9,7 @@ interface CTAButtonProps {
   onClick?: () => void
   type?: 'button' | 'submit'
   className?: string
+  disabled?: boolean
 }
 
 export default function CTAButton({
@@ -19,6 +20,7 @@ export default function CTAButton({
   onClick,
   type = 'button',
   className = '',
+  disabled = false,
 }: CTAButtonProps) {
   const baseStyles =
     'font-semibold rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2'
@@ -45,7 +47,7 @@ export default function CTAButton({
   }
 
   return (
-    <button type={type} onClick={onClick} className={classes}>
+    <button type={type} onClick={onClick} className={classes} disabled={disabled}>
       {children}
     </button>
   )
