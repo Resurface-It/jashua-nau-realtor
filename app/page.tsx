@@ -97,12 +97,12 @@ export default function HomePage() {
                   </CTAButton>
                 </div>
               </div>
-              <div className="relative h-80 lg:h-[420px] rounded-lg overflow-hidden shadow-2xl">
+              <div className="relative w-full h-[500px] lg:h-[650px] max-w-md mx-auto lg:max-w-xl rounded-lg overflow-hidden shadow-2xl">
                 <Image
                   src="/images/IMG_0815.PNG"
                   alt="Joshua Nau - Real Estate Expert"
                   fill
-                  className="object-cover rounded-lg"
+                  className="object-contain rounded-lg"
                   priority
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
