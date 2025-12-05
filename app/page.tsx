@@ -97,7 +97,7 @@ export default function HomePage() {
                   </CTAButton>
                 </div>
               </div>
-              <div className="relative h-96 lg:h-[500px] rounded-lg overflow-hidden shadow-2xl">
+              <div className="relative h-80 lg:h-[420px] rounded-lg overflow-hidden shadow-2xl">
                 <Image
                   src="/images/IMG_0815.PNG"
                   alt="Joshua Nau - Real Estate Expert"
